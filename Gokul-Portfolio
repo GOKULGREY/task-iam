@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gokul Kannan | Cybersecurity & Cloud Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #1f2937;
+      --accent-color: #2563eb;
+      --light-bg: #f9fafb;
+      --card-bg: #ffffff;
+      --text-dark: #1e293b;
+      --text-light: #6b7280;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--light-bg);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    .hero {
+      background: linear-gradient(90deg, #1f2937 0%, #374151 100%);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p a {
+      color: #93c5fd;
+      text-decoration: none;
+      margin: 0 0.3rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.4rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Gokul Kannan</h1>
+    <p>
+      Cybersecurity & Cloud Specialist |
+      <a href="mailto:gokulkamalakannan5@gmail.com">Email</a> |
+      <a href="https://linkedin.com/in/gokulkamalakannan5" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/GOKULGREY" target="_blank">GitHub</a>
+    </p>
+  </header>
+
+  <div class="container">
+    <h2>👨‍💻 Profile</h2>
+    <div class="card">
+      <p>A Cybersecurity and Cloud Technology graduate experienced in AWS, Azure, SIEM, SOC operations, and web application testing. Skilled in vulnerability management and security operations with tools like Terraform, OWASP ZAP, Nessus, and more.</p>
+    </div>
+
+    <h2>💼 Experience</h2>
+    <div class="card">
+      <h3>Cloud Security Intern – Techhone Private Ltd (2024–2025)</h3>
+      <ul>
+        <li>Managed identity lifecycles and RBAC access in AWS and Azure.</li>
+        <li>Built secure infrastructure using Terraform.</li>
+        <li>Performed audits using AWS Security Hub & Azure Security Center.</li>
+        <li>Security testing with OWASP ZAP and Nessus.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Cybersecurity Intern – Cyber Cell Police Station (2023)</h3>
+      <ul>
+        <li>Investigated phishing cases and conducted forensic support.</li>
+      </ul>
+    </div>
+
+    <h2>🚀 Projects</h2>
+    <div class="card">
+      <h3>Underage Driver Detection</h3>
+      <p>Vision-based detection system using facial recognition and handwriting analysis.</p>
+    </div>
+    <div class="card">
+      <h3>Handwritten Text to Editable Text</h3>
+      <p>Translates local language handwritten text into editable digital format.</p>
+    </div>
+    <div class="card">
+      <h3>Phishing Email Investigation</h3>
+      <p>Analyzed phishing attacks and supported investigation during internship.</p>
+    </div>
+
+    <h2>🎓 Education</h2>
+    <div class="card">
+      <p><strong>B.Sc. Computer Science (Cloud Tech & InfoSec)</strong><br>Rathinam College of Arts and Science (2021–2024) – CGPA: 7.5</p>
+    </div>
+
+    <h2>🛠️ Skills</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Cloud:</strong> AWS, Azure, Oracle</li>
+        <li><strong>Security:</strong> SIEM, OWASP, Nessus, Qualys, IAM, EDR</li>
+        <li><strong>DevOps:</strong> Terraform, GitHub, Azure DevOps, MySQL</li>
+        <li><strong>Networking:</strong> TCP/IP, Kali Linux, MAC OS</li>
+      </ul>
+    </div>
+
+    <h2>📜 Certifications</h2>
+    <div class="card">
+      <ul>
+        <li>Oracle Cloud Infrastructure Associate (1Z0-1085-23)</li>
+        <li>AWS Cloud Practitioner, Security, Storage</li>
+        <li>LetsDefend – SOC & SIEM 101</li>
+        <li>TryHackMe – Red Team, Forensics</li>
+        <li>arcX – Cyber Threat Intel | Securiti – PrivacyOps</li>
+      </ul>
+    </div>
+
+    <h2>🏆 Awards</h2>
+    <div class="card">
+      <ul>
+        <li>🥈 Runner-up – Smart India Hackathon 2022</li>
+        <li>Hack O Heist 2023 – Participant</li>
+        <li>🥉 3rd Place – CTF Competition (2023)</li>
+      </ul>
+    </div>
+
+    <h2>🌐 Languages</h2>
+    <div class="card">
+      <p>English, Tamil, Malayalam</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Gokul Kannan — All rights reserved.
+  </footer>
+
+</body>
+</html>
